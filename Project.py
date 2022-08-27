@@ -10,8 +10,7 @@ def load_lottieurl(url: str):
     if r.status_code != 200:
         return None
     return r.json()
-  lottie_book = load_lottieurl('https://assets4.lottiefiles.com/temp/lf20_aKAfIn.json')
-st_lottie(lottie_book, speed=1, height=200, key="initial")
+
 
 
 matplotlib.use("agg")
