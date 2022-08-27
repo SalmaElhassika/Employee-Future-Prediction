@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib as matplot
+import matplotlib 
 import seaborn as sns
 import streamlit as st
 from matplotlib.backends.backend_agg import RendererAgg
